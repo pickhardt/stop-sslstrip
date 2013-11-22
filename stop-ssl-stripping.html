@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      var isTampered = (String.fromCharCode(104) + String.fromCharCode(116) + String.fromCharCode(116) + String.fromCharCode(112) + String.fromCharCode(115)) != "https";
+      if (isTampered) {
+        window.location.href = "http://mydomain.com/warning.html";
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Stop SSL Stripping</h1>
+    <p>
+      If you attempt to proxy and SSL strip this page, you should be redirected instead.
+    </p>
+  </body>
+</html>
