@@ -1,7 +1,7 @@
 stop-sslstrip
 =============
 
-Provides a countermeasure to a SSL strip MTIM attack.
+Provides a countermeasure to a SSL strip MITM attack.
 
 More Info
 ---------
